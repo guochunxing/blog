@@ -82,6 +82,6 @@ deploy:
 
 
 server:
-  port: 8090
+  port: 80
   compress: true
   header: true
