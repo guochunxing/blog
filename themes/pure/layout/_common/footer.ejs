@@ -1,0 +1,11 @@
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	<%- partial('_common/social', null, {cache: !config.relative_link}) %>
+    <div class="copyright">
+    	<% if(theme.site.copyright) { %>
+        &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+        <% } %>
+        <div class="publishby">
+        	<a href="mailto:workabee@126.com?&subject=来自博客的邮件">workabee@126.com</a></p>
+        </div>
+    </div>
+</footer>
